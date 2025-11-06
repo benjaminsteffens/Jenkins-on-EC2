@@ -2,7 +2,7 @@
 
 This Bash script automates the installation of **Docker** and then deploys the official **Jenkins** Continuous Integration server inside a container.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ This Bash script automates the installation of **Docker** and then deploys the o
     ```
     *(The script will take a few minutes to complete the package installation and image download.)*
 
-## ⚙️ What the Script Does
+## What the Script Does
 
 The script performs the following actions in sequence:
 
@@ -37,7 +37,7 @@ The script performs the following actions in sequence:
     * **`-p 50000:50000`**: Maps the agent communication port.
     * **`--restart=on-failure`**: Ensures Jenkins restarts if the container crashes.
 
-## 🔑 Post-Installation (Accessing Jenkins)
+## Post-Installation (Accessing Jenkins)
 
 Once the script is finished, the Jenkins server is running in the background.
 
